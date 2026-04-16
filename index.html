@@ -1,31 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>GOLD RATE STOCK LIMITED</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold Rate Statistics - 1 Year</title>
+  
     <style>
-        table { width: 80%; border-collapse: collapse; margin-top: 20px; }
-        th, td { border: 1px solid black; padding: 12px; text-align: left; }
-        th { background-color: #f2f2f2; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            max-width: 900px;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #d4af37; /* Gold color */
+            margin-bottom: 20px;
+        }
+        .stats {
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
-    <h1>Gold rate statictics</h1>
-    
-    
-    <h3>Gold</h3>
-    <table>
-        <tr>
-           
-        </tr>
-        <tr>
-            
-        </tr>
-        <tr>
-            
-        </tr>
-        <tr>
-           
-        </tr>
-    </table>
+
+<div class="container">
+    <h2>Gold Rate Statistics (Last 1 Year)</h2>
+    <canvas id="goldChart"></canvas>
+    <div class="stats">
+        Prices shown in <strong>₹ (INR) per 10 grams (24K Gold)</strong>. 
+        <br>Data Range: April 2025 to April 2026.
+    </div>
+</div>
+
+<
+
 </body>
 </html>
